@@ -2,9 +2,6 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import service.NaverApiAgent;
 
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * Created by danawacomputer on 2017-04-17.
  */
