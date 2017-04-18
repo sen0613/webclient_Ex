@@ -10,7 +10,7 @@ import java.net.URLEncoder;
 /**
  * Created by danawacomputer on 2017-04-17.
  */
-public class JsonDemo {
+public class searchAndReturnJson {
 
     public static void main(String[] args) {
         String source = "That we beat to death in Tucson";

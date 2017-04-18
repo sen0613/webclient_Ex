@@ -20,7 +20,7 @@ public class NaverApiAgent {
     public static String searchAndReturnJson(String keyword) {
         try {
             String text = URLEncoder.encode(keyword, "UTF-8");
-            String apiURL = "https://openapi.naver.com/v1/search/blog?query=" + text + "&display=100"; // json 결과
+            String apiURL = "https://openapi.naver.com/v1/search/blog?query=" + text + "&display=10"; // json 결과
             //String apiURL = "https://openapi.naver.com/v1/search/blog.xml?query="+ text; // xml 결과
             URL url = new URL(apiURL);
             HttpURLConnection con = (HttpURLConnection)url.openConnection();
